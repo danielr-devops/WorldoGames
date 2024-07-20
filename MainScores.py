@@ -21,6 +21,3 @@ def score_server(file_name):
             return render_template('error_template.html', ERROR=e.args[1])
 
         app.run(debug=True)
-
-
-score_server(scores_file_name)
